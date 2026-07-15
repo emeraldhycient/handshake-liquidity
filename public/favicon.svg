@@ -1,12 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="44" height="44"><svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="hlFav" x1="4" y1="4" x2="40" y2="40" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#0FB57A"/>
-      <stop offset="1" stop-color="#34E39B"/>
+    <linearGradient id="hlFav" x1="12" y1="4" x2="30" y2="42" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2B8CFF"/>
+      <stop offset="1" stop-color="#63D8F2"/>
     </linearGradient>
   </defs>
-  <rect width="44" height="44" rx="22" fill="url(#hlFav)"></rect>
-  <path d="M12 14 L18 22 L12 30" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
-  <rect x="20.5" y="13" width="3" height="18" rx="1.5" fill="#FFFFFF"></rect>
-  <path d="M32 14 L26 22 L32 30" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+  <rect x="12" y="4" width="20" height="20" rx="5.5" fill="url(#hlFav)"></rect>
+  <path d="M22 25 C 24.4 29, 28 31, 28 34.4 A 6 6 0 1 1 16 34.4 C 16 31, 19.6 29, 22 25 Z" fill="url(#hlFav)"></path>
+  <circle cx="30.5" cy="37.5" r="1.5" fill="url(#hlFav)"></circle>
+  <path d="M16.5 18 L 25.5 8.5" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" opacity="0.4"></path>
+  <circle cx="17.5" cy="10.5" r="1.5" fill="#FFFFFF" opacity="0.55"></circle>
 </svg></svg>
