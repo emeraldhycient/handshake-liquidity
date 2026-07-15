@@ -1,0 +1,220 @@
+<!-- general faq section  -->
+<section class="lp:py-39! py-20 md:py-28">
+  <div class="main-container">
+    <div class="mx-auto max-w-[850px] rounded-2xl">
+      <div class="space-y-[70px]">
+        <div class="space-y-8">
+          <!-- text content  -->
+          <div class="space-y-3 text-center">
+            <h2
+              data-text-reveal
+              class="font-sora text-sora-heading-4 md:text-sora-heading-3 lg:text-sora-heading-2 text-background-13/90 text-center font-normal"
+            >
+              Frequently asked questions
+            </h2>
+            <p
+              data-text-reveal
+              data-delay="0.2"
+              class="font-inter-tight text-tagline-2 text-background-13/60 mx-auto max-w-[550px] font-normal"
+            >
+              Frequently asked questions ordered by popularity. Remember that if the visitor has not
+              committed to the call to action, they may still have questions
+            </p>
+          </div>
+
+          <!-- avatars  -->
+          <div
+            class="flex items-center justify-center gap-4 pb-14 max-[375px]:flex-col md:pb-16 xl:pb-[70px]"
+          >
+            <div class="flex -space-x-2.5">
+              <img
+                data-opai-avatar
+                data-avatar-delay="0.2"
+                class="inline-block size-9 rounded-full ring-2 ring-white"
+                src="./images/opai-avatar-img-01.png"
+                alt="Avatar 1"
+              />
+              <img
+                data-opai-avatar
+                data-avatar-delay="0.3"
+                class="inline-block size-9 rounded-full ring-2 ring-white"
+                src="./images/opai-avatar-img-02.png"
+                alt="Avatar 2"
+              />
+              <img
+                data-opai-avatar
+                data-avatar-delay="0.4"
+                class="inline-block size-9 rounded-full ring-2 ring-white"
+                src="./images/opai-avatar-img-03.png"
+                alt="Avatar 3"
+              />
+              <img
+                data-opai-avatar
+                data-avatar-delay="0.5"
+                class="inline-block size-9 rounded-full ring-2 ring-white"
+                src="./images/opai-avatar-img-04.png"
+                alt="Avatar 4"
+              />
+              <div
+                data-opai-avatar
+                data-avatar-delay="0.6"
+                class="text-tagline-4 inline-flex size-9 items-center justify-center rounded-full bg-[#0d0d1280] font-medium text-white/80 ring-2 ring-white backdrop-blur-[6px]"
+              >
+                99+
+              </div>
+            </div>
+            <div class="text-left max-[375px]:text-center">
+              <p
+                class="text-tagline-3 text-background-13/90 block font-medium"
+                data-opai-animate
+                data-delay="0.3"
+              >
+                Trusted by 200+
+              </p>
+              <p class="text-tagline-4 text-background-13/60" data-opai-animate data-delay="0.4">
+                Customers across the globe
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion space-y-3" role="tablist" aria-label="Frequently Asked Questions">
+          <!-- item one  -->
+          <div
+            class="accordion-item group data-[state=open]:bg-background-4 border-stroke-3/25 relative z-10 w-full overflow-hidden rounded-xl border bg-transparent px-5 transition-colors duration-300 ease-in-out md:rounded-3xl md:px-6"
+            data-opai-animate
+            data-delay="0.1"
+            data-default-open="true"
+          >
+            <h3
+              class="accordion-action font-inter-tight text-tagline-2 md:text-tagline-1 data-[state=closed]:text-background-13/60 flex w-full cursor-pointer items-center justify-between pt-5 pb-5 text-left text-white/60 transition-all duration-300 ease-in-out group-data-[state=open]:pb-2.5! data-[state=open]:text-white/90 md:pt-6 md:pb-6"
+            >
+              <button class="text-left">What is Handshake Liquidity?</button>
+              <Component src="src/components/shared/accoridion/accordion-plus-icon.htm" />
+            </h3>
+            <Component
+              src="src/components/shared/accoridion/accordion-content.htm"
+              content="Handshake Liquidity is the settlement and automation layer for global platforms. Through one API you can route local-currency payouts to banks and mobile-money wallets and automate ad spend across networks—with real-time reconciliation and transaction logging built in."
+              class="w-full px-0!"
+            />
+          </div>
+
+          <!-- item two  -->
+          <div
+            class="accordion-item group data-[state=open]:bg-background-4 border-stroke-3/25 relative z-10 w-full overflow-hidden rounded-xl border bg-transparent px-5 transition-colors duration-300 ease-in-out md:rounded-3xl md:px-6"
+            data-opai-animate
+            data-delay="0.2"
+          >
+            <h3
+              class="accordion-action font-inter-tight text-tagline-2 md:text-tagline-1 data-[state=closed]:text-background-13/60 flex w-full cursor-pointer items-center justify-between pt-5 pb-5 text-left text-white/60 transition-all duration-300 ease-in-out group-data-[state=open]:pb-2.5! data-[state=open]:text-white/90 md:pt-6 md:pb-6"
+            >
+              <button class="text-left">How fast are payouts settled?</button>
+              <Component src="src/components/shared/accoridion/accordion-plus-icon.htm" />
+            </h3>
+            <Component
+              src="src/components/shared/accoridion/accordion-content.htm"
+              content="Most disbursements route in under 2 seconds for near-instant settlement, backed by 99.99% platform uptime. You submit bulk API instructions, and our settlement engine routes each payout to the local bank or mobile-money endpoint, returning webhooks and ledger entries as they clear."
+              class="w-full px-0!"
+            />
+          </div>
+
+          <!-- item three  -->
+          <div
+            class="accordion-item group data-[state=open]:bg-background-4 border-stroke-3/25 relative z-10 w-full overflow-hidden rounded-xl border bg-transparent px-5 transition-colors duration-300 ease-in-out md:rounded-3xl md:px-6"
+            data-opai-animate
+            data-delay="0.3"
+          >
+            <h3
+              class="accordion-action font-inter-tight text-tagline-2 md:text-tagline-1 data-[state=closed]:text-background-13/60 flex w-full cursor-pointer items-center justify-between pt-5 pb-5 text-left text-white/60 transition-all duration-300 ease-in-out group-data-[state=open]:pb-2.5! data-[state=open]:text-white/90 md:pt-6 md:pb-6"
+            >
+              <button class="text-left">Which corridors and currencies are supported?</button>
+              <Component src="src/components/shared/accoridion/accordion-plus-icon.htm" />
+            </h3>
+            <Component
+              src="src/components/shared/accoridion/accordion-content.htm"
+              content="Handshake covers 40+ payout corridors and 135+ currencies across 4,000+ bank and mobile-money endpoints, with automatic FX handling. New corridors are added regularly, and you can reach them all through the same REST API, webhooks, and SDKs—no per-country rebuild required."
+              class="w-full px-0!"
+            />
+          </div>
+
+          <!-- item four  -->
+          <div
+            class="accordion-item group data-[state=open]:bg-background-4 border-stroke-3/25 relative z-10 w-full overflow-hidden rounded-xl border bg-transparent px-5 transition-colors duration-300 ease-in-out md:rounded-3xl md:px-6"
+            data-opai-animate
+            data-delay="0.4"
+          >
+            <h3
+              class="accordion-action font-inter-tight text-tagline-2 md:text-tagline-1 data-[state=closed]:text-background-13/60 flex w-full cursor-pointer items-center justify-between pt-5 pb-5 text-left text-white/60 transition-all duration-300 ease-in-out group-data-[state=open]:pb-2.5! data-[state=open]:text-white/90 md:pt-6 md:pb-6"
+            >
+              <button class="text-left">How secure is the platform?</button>
+              <Component src="src/components/shared/accoridion/accordion-plus-icon.htm" />
+            </h3>
+            <Component
+              src="src/components/shared/accoridion/accordion-content.htm"
+              content="Handshake uses bank-grade security with encryption in transit and at rest. Every transaction is logged to an immutable ledger, and we support SSO, role-based access, and compliance screening. Data can be processed in your chosen region to help you meet regulatory requirements."
+              class="w-full px-0!"
+            />
+          </div>
+
+          <!-- item five  -->
+          <div
+            class="accordion-item group data-[state=open]:bg-background-4 border-stroke-3/25 relative z-10 w-full overflow-hidden rounded-xl border bg-transparent px-5 transition-colors duration-300 ease-in-out md:rounded-3xl md:px-6"
+            data-opai-animate
+            data-delay="0.5"
+          >
+            <h3
+              class="accordion-action font-inter-tight text-tagline-2 md:text-tagline-1 data-[state=closed]:text-background-13/60 flex w-full cursor-pointer items-center justify-between pt-5 pb-5 text-left text-white/60 transition-all duration-300 ease-in-out group-data-[state=open]:pb-2.5! data-[state=open]:text-white/90 md:pt-6 md:pb-6"
+            >
+              <button class="text-left">
+                How do I get started and onboard my platform?
+              </button>
+              <Component src="src/components/shared/accoridion/accordion-plus-icon.htm" />
+            </h3>
+            <Component
+              src="src/components/shared/accoridion/accordion-content.htm"
+              content="Create an account, generate your API keys, and start in sandbox with test corridors. Our clear API docs, SDKs, and webhook guides get your team from signup to production quickly, and our payments team helps with corridor setup, compliance screening, and go-live reviews."
+              class="w-full px-0!"
+            />
+          </div>
+
+          <!-- item six  -->
+          <div
+            class="accordion-item group data-[state=open]:bg-background-4 border-stroke-3/25 relative z-10 w-full overflow-hidden rounded-xl border bg-transparent px-5 transition-colors duration-300 ease-in-out md:rounded-3xl md:px-6"
+            data-opai-animate
+            data-delay="0.6"
+          >
+            <h3
+              class="accordion-action font-inter-tight text-tagline-2 md:text-tagline-1 data-[state=closed]:text-background-13/60 flex w-full cursor-pointer items-center justify-between pt-5 pb-5 text-left text-white/60 transition-all duration-300 ease-in-out group-data-[state=open]:pb-2.5! data-[state=open]:text-white/90 md:pt-6 md:pb-6"
+            >
+              <button class="text-left">How do API keys and idempotency work?</button>
+              <Component src="src/components/shared/accoridion/accordion-plus-icon.htm" />
+            </h3>
+            <Component
+              src="src/components/shared/accoridion/accordion-content.htm"
+              content="You manage scoped API keys for sandbox and production from the dashboard. Every payout and ad-automation call accepts an idempotency key, so retries never double-route funds. Webhooks confirm each state change, and the ledger keeps a complete, reconcilable record."
+              class="w-full px-0!"
+            />
+          </div>
+
+          <!-- item seven  -->
+          <div
+            class="accordion-item group data-[state=open]:bg-background-4 border-stroke-3/25 relative z-10 w-full overflow-hidden rounded-xl border bg-transparent px-5 transition-colors duration-300 ease-in-out md:rounded-3xl md:px-6"
+            data-opai-animate
+            data-delay="0.7"
+          >
+            <h3
+              class="accordion-action font-inter-tight text-tagline-2 md:text-tagline-1 data-[state=closed]:text-background-13/60 flex w-full cursor-pointer items-center justify-between pt-5 pb-5 text-left text-white/60 transition-all duration-300 ease-in-out group-data-[state=open]:pb-2.5! data-[state=open]:text-white/90 md:pt-6 md:pb-6"
+            >
+              <button class="text-left">How long does integration take?</button>
+              <Component src="src/components/shared/accoridion/accordion-plus-icon.htm" />
+            </h3>
+            <Component
+              src="src/components/shared/accoridion/accordion-content.htm"
+              content="Most teams route their first test payout the same day using our SDKs and prebuilt connectors. A full production integration—corridors, reconciliation, and webhooks—typically takes from a few hours to a few days depending on scope. Our payments team helps you get live quickly."
+              class="w-full px-0!"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

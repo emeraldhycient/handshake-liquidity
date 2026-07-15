@@ -1,0 +1,77 @@
+<!-- blog details markdown section -->
+<section class="lp:pb-39! pb-20 md:pb-28">
+  <div class="main-container">
+    <div data-opai-animate data-delay="0.1" class="blog-details-markdown">
+      <h2>Understanding the settlement layer</h2>
+      <p>
+        A global platform generates thousands of payment instructions every minute, each destined
+        for a different bank or mobile-money wallet. Each instruction is received, screened, and
+        routed to the right local corridor. Similarly, the Handshake settlement engine is built from
+        layers of connected services that work together to validate, orchestrate, and disburse
+        funds. This structure lets platforms settle complex, cross-border payouts in real time, just
+        as a ledger reconciles every movement.
+      </p>
+
+      <h2>How payout routing works</h2>
+      <p>
+        Routing a payout involves ingesting bulk API instructions and selecting the fastest, most
+        reliable rail for each destination corridor. This process, backed by idempotency keys,
+        ensures every disbursement settles exactly once even when requests are retried. The broader
+        the corridor coverage and endpoint network, the more reliably the engine can reach any bank
+        or wallet, in any supported currency.
+      </p>
+
+      <h2>Rails and architecture</h2>
+      <p>
+        A modern settlement stack typically includes an ingestion layer, one or more orchestration
+        and compliance-screening layers, and a disbursement layer. High-throughput routing refers to
+        rails engineered to sustain volume without added latency—from validating instructions and
+        applying FX to clearing funds into local accounts. Choosing the right corridor and payout
+        method is crucial for the region at hand.
+      </p>
+
+      <img src="./images/opai-img-24.png" alt="blog-details-markdown-img" />
+
+      <h2>Real-world applications</h2>
+      <p>Handshake Liquidity powers many workflows platforms run every day, including:</p>
+
+      <ul>
+        <li>
+          <span>Vendor disbursements –</span> routing bulk supplier and merchant payments to local
+          bank accounts across 40+ corridors with automatic FX handling.
+        </li>
+        <li>
+          <span>User incentives &amp; payouts –</span> paying out drivers, creators, and sellers to
+          mobile-money wallets in local currency, in near-real time.
+        </li>
+        <li>
+          <span>Affiliate clearings –</span> settling high-volume affiliate and partner earnings on
+          schedule, with full transaction logging and reconciliation.
+        </li>
+        <li>
+          <span>Ad spend automation –</span> programmatically managing bids, budgets, and pacing
+          across ad networks through a single API.
+        </li>
+      </ul>
+      <p>
+        Platforms that route disbursements through local rails have seen up to a 20% lift in payout
+        success rates, while real-time reconciliation continues to reduce disputes across corridors.
+      </p>
+
+      <h2>Bridging platforms and local rails</h2>
+      <p>
+        By connecting a single API to thousands of bank and mobile-money endpoints, platforms gain
+        reach into markets that were once slow and costly to serve. This orchestration lets teams
+        move money and manage ad spend across borders without stitching together dozens of local
+        integrations.
+      </p>
+
+      <p>
+        Handshake Liquidity not only demonstrates the throughput of modern payout rails but also
+        shows how one settlement layer can absorb the complexity of local corridors, opening doors
+        to growth across marketplaces, gaming, creator platforms, remittance, and countless other
+        sectors.
+      </p>
+    </div>
+  </div>
+</section>
